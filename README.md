@@ -1,4 +1,4 @@
-# Knights-Travails
+# Knight's-Travails
 
 The objective of this project is to create a chess board with a knight and move the knight around the board using JavaScript. I also used HTML, CSS, JSON, webpack, eslint and prettier on this project.
 

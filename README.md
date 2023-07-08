@@ -8,7 +8,7 @@ The objective of this project is to create a chess board with a knight and move 
 
 **Features**
 
-1. The DOM has a chess board, knight piece, title, start game button, and clear board button.
+1. The UI has a chess board, knight piece, title, start game button, and clear board button.
 
 2. The knight piece moves like a chess knight, two spaces over and one space up or down.
 

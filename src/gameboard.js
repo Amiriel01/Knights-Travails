@@ -15,7 +15,7 @@ let gameBoard = () => {
         //use Math.abs to start the numbers at the bottom of the board and end them at the top for the row coordinates//
         let cellRowCoord = Math.abs(i - 7);
 
-        tableRow.textContent = cellRowCoord; //Remove later this is just to set text//
+        // tableRow.textContent = cellRowCoord; 
 
         //create an 8x8 chessboard this for loop will loop 8 times to create the columns//
         for (let z = 0; z < 8; z++) {
@@ -23,7 +23,7 @@ let gameBoard = () => {
             let tableCell = document.createElement("td");
             let cellColumnCoord = z;
 
-            tableCell.textContent = cellColumnCoord; //Remove later this is just to set text//
+            // tableCell.textContent = cellColumnCoord; 
 
             //loop for shading the board's odd value cells//
             if ((i + z) % 2 === 0) {
@@ -66,7 +66,7 @@ let gameBoard = () => {
 
 //function to reset the board on the button click//
 let resetBoard = (function () {
-    let resetButton = document.querySelector(".clear-board");
+    let resetButton = document.querySelector("#clear-board");
     resetButton.addEventListener("click", function () {
         location.reload();
     });

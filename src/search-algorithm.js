@@ -1,3 +1,5 @@
+import { displayMoves } from "./display-moves.js"
+
 //using a graph breadth-first-search algorithm for the moves//
 
 //map holds key value pairs and remembers original insertion order of the keys//
@@ -89,9 +91,17 @@ let knightsTravails = (start, finish) => {
         //unshift will insert the new element at the start of the array which is the opposite of shift from above//
         path.unshift(prevSquare);
     }
-    console.log(`the shortest path was ${path.length - 1} moves!`);
-    console.log("The moves were:");
-    path.forEach(square => console.log(square.name()));
+    // console.log(`the shortest path was ${path.length - 1} moves!`);
+    // console.log("The moves were:");
+    
+    let squareCoord = [];
+    path.forEach((square) => {
+        //console.log(square.name());
+        //push the square name to the squareCoord array//
+        squareCoord.push(square.name());
+    });
+    //console.log(squareCoord);//
+    displayMoves(path, squareCoord);
 }
 
 export { knightsTravails };

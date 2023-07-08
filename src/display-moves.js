@@ -11,7 +11,7 @@ let displayMoves = (path, squareCoord) => {
     let moveNumber = document.createElement("p");
     let coordList = document.createElement("p");
 
-    moveNumber.textContent = `The shortest path was ${path.length - 1} moves!`
+    moveNumber.textContent = `The shortest path is ${path.length - 1} moves!`
     //innerHTML with join function so it keeps the array looking right. <br> is line break//
     coordList.innerHTML = squareCoord.join("<br>");
     displayDiv.appendChild(moveNumber);

@@ -17,7 +17,7 @@ Image after knight is moved:
 
 1. The UI has a chess board, knight piece, title, box for move count and move list, and a reset board button.
 
-2. The knight piece can be moved anywhere on the board. Once moved, the shortest move count to the location the piece was moved and the list of places the piece would have routed through are displayed in the box under the title.
+2. The knight piece can be moved anywhere on the board. Once moved, the shortest move count to the location and the list of moves the knight took are shown in the display box under the title.
 
 3. The reset board button moves the knight piece back to the original start position.
 

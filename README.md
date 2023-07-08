@@ -1,18 +1,25 @@
 # Knights-Travails
 
-Work in Progress
-
 The objective of this project is to create a chess board with a knight and move the knight around the board using JavaScript. I also used HTML, CSS, JSON, webpack, eslint and prettier on this project.
 
 **Project Image**
 
+Image before knight is moved:
+
+![](dist/premove.png)
+
+Image after knight is moved:
+
+![](dist/postmove.png)
+
+
 **Features**
 
-1. The UI has a chess board, knight piece, title, start game button, and clear board button.
+1. The UI has a chess board, knight piece, title, box for move count and move list, and a reset board button.
 
-2. The knight piece moves like a chess knight, two spaces over and one space up or down.
+2. The knight piece can be moved anywhere on the board. Once moved, the shortest move count to the location the piece was moved and the list of places the piece would have routed through are displayed in the box under the title.
 
-3. 
+3. The reset board button moves the knight piece back to the original start position.
 
 
 

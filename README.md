@@ -21,6 +21,11 @@ Image after knight is moved:
 
 3. The reset board button moves the knight piece back to the original start position.
 
+**Image Credit**
+
+1. Knight Piece Image: https://freesvg.org/chess-knight
+
+
 
 
 
